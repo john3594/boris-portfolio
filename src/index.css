@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.background-false {
-  @apply bg-pink-200;
+.background-true {
+  @apply bg-white;
 }
 
 .background-true {
@@ -11,23 +11,23 @@
 }
 
 .container-false {
-  @apply bg-red-100
+  @apply bg-white
 }
 
 .container-true {
-  @apply bg-[#18181b];
+  @apply bg-white;
 }
 
 .text-false {
-  @apply text-red-500;
+  @apply text-black;
 }
 
 .text-true {
-  @apply text-white;
+  @apply text-black;
 }
 
 .border-false {
-  @apply border-red-400
+  @apply border-blue-400
 }
 
 .border-true {
@@ -37,7 +37,9 @@
 
 body {
   margin: 0;
+  background-color: white;
   padding: 0;
+  color: black;
 }
 
 .swiper {
